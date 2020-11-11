@@ -1,0 +1,73 @@
+.nav {
+    width: 70px;
+    height: 100vh;
+}
+
+.nav__logo {
+    width: 70px;
+    height: 70px;    
+    background: url(../../../../../FED/dashboard/source/img/icons/header/logo.png) center no-repeat;
+}
+
+.nav__menu {
+    width: 70px;
+    height: calc(100vh - 70px);
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(top, #F17156 0%, #FD5272 100%);
+}
+
+.nav__ref {
+    font-size: calc(12px + 0.2vw);
+    font-family: $primary-font;
+    color: $secondary-color;
+    text-decoration: none;
+}
+
+.nav__list {
+   height: 3em;
+   padding-top: 1em;
+   padding-bottom: 1em;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+}
+
+.nav__list:hover {
+    @include hover-botton;
+}
+
+.nav__list--home {
+    background: url(../../../../../FED/dashboard/source/img/icons/nav/home.png) no-repeat;
+    background-position: 50% 30%;
+}
+
+.nav__list--statistics {
+    background: url(../../../../../FED/dashboard/source/img/icons/nav/statistics.png) no-repeat;
+    background-position: 50% 30%;
+}
+
+.nav__list--users {
+    background: url(../../../../../FED/dashboard/source/img/icons/nav/user.png) no-repeat;
+    background-position: 50% 30%;
+}
+
+.nav__list--settings {
+    background: url(../../../../../FED/dashboard/source/img/icons/nav/settings.png) no-repeat;
+    background-position: 50% 30%;
+}
+
+.nav__list--quires {
+    background: url(../../../../../FED/dashboard/source/img/icons/nav/quires.png) no-repeat;
+    background-position: 50% 30%;
+}
+
+.nav__switch {
+    width: 70px;
+    height: 35px;
+    position: fixed;
+    bottom: 0.5em;
+    background: url(../../../../../FED/dashboard/source/img/icons/nav/power-button.png) center no-repeat;
+}
