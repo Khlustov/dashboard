@@ -349,7 +349,7 @@ template {
 .nav__logo {
   width: 70px;
   height: 70px;
-  background: url(../../../../../FED/dashboard/source/img/icons/header/logo.png) center no-repeat;
+  background: url(img/icons/header/logo.png) center no-repeat;
 }
 
 .nav__menu {
