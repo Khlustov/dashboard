@@ -349,7 +349,7 @@ template {
 .nav__logo {
   width: 70px;
   height: 70px;
-  background: url(img/icons/header/logo.png) center no-repeat;
+  background: url("/source/img/icons/header/logo.png") center no-repeat;
 }
 
 .nav__menu {
@@ -395,27 +395,27 @@ template {
 }
 
 .nav__list--home {
-  background: url(../../../../../FED/dashboard/source/img/icons/nav/home.png) no-repeat;
+  background: url("/source/img/icons/nav/home.png") no-repeat;
   background-position: 50% 30%;
 }
 
 .nav__list--statistics {
-  background: url(../../../../../FED/dashboard/source/img/icons/nav/statistics.png) no-repeat;
+  background: url("/source/img/icons/nav/statistics.png") no-repeat;
   background-position: 50% 30%;
 }
 
 .nav__list--users {
-  background: url(../../../../../FED/dashboard/source/img/icons/nav/user.png) no-repeat;
+  background: url("/source/img/icons/nav/user.png") no-repeat;
   background-position: 50% 30%;
 }
 
 .nav__list--settings {
-  background: url(../../../../../FED/dashboard/source/img/icons/nav/settings.png) no-repeat;
+  background: url("/source/img/icons/nav/settings.png") no-repeat;
   background-position: 50% 30%;
 }
 
 .nav__list--quires {
-  background: url(../../../../../FED/dashboard/source/img/icons/nav/quires.png) no-repeat;
+  background: url("/source/img/icons/nav/quires.png") no-repeat;
   background-position: 50% 30%;
 }
 
@@ -424,6 +424,6 @@ template {
   height: 35px;
   position: fixed;
   bottom: 0.5em;
-  background: url(../../../../../FED/dashboard/source/img/icons/nav/power-button.png) center no-repeat;
+  background: url("/source/img/icons/nav/power-button.png") center no-repeat;
 }
 /*# sourceMappingURL=main.css.map */
