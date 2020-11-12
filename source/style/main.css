@@ -375,27 +375,27 @@ template {
 }
 
 .header__item--menu {
-  background: url("/source/img/icons/header/menu.png") center no-repeat;
+  background: url("../img/icons/header/menu.png") center no-repeat;
 }
 
 .header__item--folder {
-  background: url("/source/img/icons/header/folder.png") center no-repeat;
+  background: url("../img/icons/header/folder.png") center no-repeat;
 }
 
 .header__item--settings {
-  background: url("/source/img/icons/header/settings.png") center no-repeat;
+  background: url("../img/icons/header/settings.png") center no-repeat;
 }
 
 .header__item--upload {
-  background: url("/source/img/icons/header/upload.png") center no-repeat;
+  background: url("../img/icons/header/upload.png") center no-repeat;
 }
 
 .header__item--mail {
-  background: url("/source/img/icons/header/mail.png") center no-repeat;
+  background: url("../img/icons/header/mail.png") center no-repeat;
 }
 
 .header__item--earth {
-  background: url("/source/img/icons/header/planet.png") center no-repeat;
+  background: url("../img/icons/header/planet.png") center no-repeat;
 }
 
 .header__profile {
@@ -446,7 +446,7 @@ template {
 .profile__menu {
   width: 20px;
   height: 70px;
-  background: url("/source/img/icons/header/gamburger.png") center no-repeat;
+  background: url("../img/icons/header/gamburger.png") center no-repeat;
 }
 
 .header__search {
@@ -485,7 +485,7 @@ template {
   height: 20px;
   top: 1.7em;
   right: 1em;
-  background: url("/source/img/icons/header/zoom-in.png") center no-repeat;
+  background: url("../img/icons/header/zoom-in.png") center no-repeat;
   overflow: hidden;
   border: none;
 }
@@ -498,7 +498,7 @@ template {
 .nav__logo {
   width: 70px;
   height: 70px;
-  background: url("/source/img/icons/header/logo.png") center no-repeat;
+  background: url("../img/icons/header/logo.png") center no-repeat;
 }
 
 .nav__menu {
@@ -535,27 +535,27 @@ template {
 }
 
 .nav__list--home {
-  background: url("/source/img/icons/nav/home.png") no-repeat;
+  background: url("../img/icons/nav/home.png") no-repeat;
   background-position: 50% 30%;
 }
 
 .nav__list--statistics {
-  background: url("/source/img/icons/nav/statistics.png") no-repeat;
+  background: url("../img/icons/nav/statistics.png") no-repeat;
   background-position: 50% 30%;
 }
 
 .nav__list--users {
-  background: url("/source/img/icons/nav/user.png") no-repeat;
+  background: url("../img/icons/nav/user.png") no-repeat;
   background-position: 50% 30%;
 }
 
 .nav__list--settings {
-  background: url("/source/img/icons/nav/settings.png") no-repeat;
+  background: url("../img/icons/nav/settings.png") no-repeat;
   background-position: 50% 30%;
 }
 
 .nav__list--quires {
-  background: url("/source/img/icons/nav/quires.png") no-repeat;
+  background: url("../img/icons/nav/quires.png") no-repeat;
   background-position: 50% 30%;
 }
 
@@ -564,7 +564,7 @@ template {
   height: 35px;
   position: fixed;
   bottom: 0.5em;
-  background: url("/source/img/icons/nav/power-button.png") center no-repeat;
+  background: url("../img/icons/nav/power-button.png") center no-repeat;
 }
 
 .box {
