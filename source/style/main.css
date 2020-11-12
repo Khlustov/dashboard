@@ -361,6 +361,12 @@ template {
   height: 70px;
 }
 
+@media (max-width: 768px) {
+  .header {
+    display: none;
+  }
+}
+
 .header__menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -490,9 +496,109 @@ template {
   border: none;
 }
 
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.card__statistic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.section__card {
+  width: 120px;
+}
+
+.card__title {
+  font-family: Lato;
+  font-weight: 700;
+  font-size: calc(12px + 0.2vw);
+  color: #777777;
+}
+
+.card__value {
+  font-family: Lato;
+  font-weight: 900;
+  font-size: calc(20px + 0.2vw);
+  color: #FD5272;
+  text-align: center;
+}
+
+.statistic {
+  position: relative;
+  margin: 0 auto;
+  font-family: Lato;
+  font-weight: 400;
+  font-size: calc(10px + 0.2vw);
+  color: #777777;
+}
+
+.statistic--up::before {
+  top: 50%;
+  left: -5px;
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 2.5px 5px 2.5px;
+  border-color: transparent transparent #A889E9 transparent;
+}
+
+.statistic--down::after {
+  top: 20%;
+  left: -5px;
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 2.5px 0 2.5px;
+  border-color: #FD5670 transparent transparent transparent;
+}
+
+.section__card--add {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.add-btn {
+  font-family: Lato;
+  font-weight: 900;
+  font-size: calc(11px + 0.2vw);
+  color: #FD5272;
+  border: none;
+  background-color: #FFFFFF;
+}
+
 .nav {
   width: 70px;
   height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+  }
 }
 
 .nav__logo {
@@ -570,5 +676,14 @@ template {
 .box {
   width: 100%;
   height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,6 +1,9 @@
 .nav {
     width: 70px;
     height: 100vh;
+    @include mobile {
+        display: none;
+    }
 }
 
 .nav__logo {
