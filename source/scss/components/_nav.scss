@@ -35,10 +35,6 @@
    align-items: flex-end;
 }
 
-.nav__list:hover {
-    @include hover-botton;
-}
-
 .nav__list--home {
     background: url('/source/img/icons/nav/home.png') no-repeat;
     background-position: 50% 30%;
