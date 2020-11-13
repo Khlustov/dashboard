@@ -3,3 +3,9 @@
         @content;
     }    
 }
+
+@mixin desctop {
+    @media (min-width: $desctop) {
+        @content;
+    }    
+}
