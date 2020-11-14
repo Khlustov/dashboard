@@ -1,6 +1,9 @@
 .nav {
     width: 70px;
-    height: 100vh;
+    height: 100%;
+    position: fixed;
+    top: 0;
+
     @include mobile {
         display: none;
     }
@@ -10,16 +13,17 @@
     width: 70px;
     height: 70px;    
     background: url('../img/icons/header/logo.png') center no-repeat;
+    background-color: $secondary-color;
 }
 
 .nav__menu {
     width: 70px;
-    height: calc(100vh - 70px);
+    height: 100vh;
     list-style-type: none;
     margin: 0 auto;
     padding: 0;
     text-align: center;
-    background: linear-gradient(top, #F17156 0%, #FD5272 100%);
+    background: linear-gradient(to top, #FD5272,  #F17156);
 }
 
 .nav__ref {

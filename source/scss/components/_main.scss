@@ -1,0 +1,279 @@
+.main {
+    max-width: 1030px;
+    background-color: $main-background;
+}
+
+/*===верхний блок===*/
+.container__revenue {
+    width: 100%;
+    max-height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.revenue__month {
+    width: 700px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: $secondary-color;
+    margin: 10px 10px;
+}
+
+.month__info {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 1em 0 1em;
+}
+
+.graph {
+    display: flex;
+    justify-content: space-between;
+}
+
+.montg__graph {
+    width: 100%;
+    height: 230px;
+    background: url("../img/backgrounds/monthly-revenue-progress.png") center no-repeat;
+}
+
+.graph__item {
+    font-family: $primary-font;
+    font-size: calc(11px + 0.2vw);
+    color: $primary-color;
+    padding: 0 1em;
+}
+
+.graph__item:hover {
+    color: $profile-color;
+}
+
+.revenue__day {
+    width: 270px;
+    height: 270px;
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $secondary-color;
+}
+
+.day__graph {
+    width: 175px;
+    height: 175px;
+    background: url("../img/backgrounds/revenue-per-hour.png") center no-repeat;
+    background-size: 175px 175px;
+}
+
+/*===нижний блок===*/
+.container__content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-height: 510px;
+}
+
+.content__chatbox {
+    width: 460px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: $secondary-color;
+    margin: 10px 10px;
+}
+
+.main__title--chat {
+    margin-left: 2em;
+}
+
+.chatbox__body {
+    display: flex;
+    justify-content: space-around;
+}
+
+.chatbox__users {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.userpic {
+    width: 40px;
+    height: 40px;
+    border: 2px solid $primary-color;
+    border-radius: 3px;    
+    box-shadow: 0px 0px 3px 1px $primary-color;
+}
+
+.userpic--sophie {
+    margin: 0 0 13em 0.5em;
+}
+
+.userpic--peter {
+    margin: 2em 0 2em 0.5em;
+}
+
+.chatbox__massages {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.massage__main {
+    width: 340px;
+    height: 70px;
+    padding: 1em 1em;
+    margin: 0.1em 0.5em;
+    background-color: $main-background;
+    border-radius: 5px;    
+}
+
+.massage__secondary {
+    width: 300px;
+    height: 70px;
+    padding: 1em 1em;
+    margin: 0.1em 0.5em;
+    background-color: $main-background;
+    border-radius: 5px;    
+}   
+
+.username {
+    font-family: $primary-font;
+    font-size: calc(11px + 0.2vw);
+    font-weight: 700;
+    color: $primary-color;
+}
+
+.text {
+    font-family: $primary-font;
+    font-size: calc(11px + 0.2vw);
+    font-weight: 400;
+    color: $primary-color;
+}
+
+.content__info {
+    width: 500px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 10px;
+}
+
+.info__to-do {
+    width: 490px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: $secondary-color;
+}
+
+.main__title--task {
+    margin-left: 2em;
+    margin-top: 0.4em;
+}
+
+.to-do__list {
+    width: 400px;
+    height: 180px;
+    margin-left: 3em;
+    overflow: auto;
+}
+
+input[type ="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    position: relative;
+    top: 4px;
+    left: 0px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid $primary-color;
+}
+
+label {
+    font-family: $primary-font;
+    font-size: calc(11px + 0.2vw);
+    font-weight: 400;
+    color: $primary-color;
+}
+
+input[type="checkbox"]::after {
+    position: absolute;
+    content: "";
+    left: 1px;
+    top: 2px;
+    width: 8px;
+    height: 4px;
+    border: 2px solid #fff;
+    border-top: none;
+    border-right: none;
+    opacity: 0;
+    transform: rotate(-45deg); 
+}
+
+input[type="checkbox"]:checked {
+    background-color: $card-value-color;
+    border:  1px solid $card-value-color;
+}
+
+input[type="checkbox"]:checked::after {
+    opacity: 1;
+}
+
+.info__cards {
+    width: 490px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__card {
+    width: 240px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $secondary-color;
+}
+
+.checklist {
+    margin: 0.5em 0.5em;
+}
+
+.checklist__item {
+    margin: 0.5em 0.5em;
+}
+
+.card__graph {
+    width: 180px;
+    height: 130px;    
+}
+
+.card__graph--progress {
+    background: url("../img/backgrounds/progress.png") center no-repeat;
+}
+
+.card__value--blue {
+    color: $card-value-color-blue;
+}
+
+.card__graph--shipments {
+    background: url("../img/backgrounds/shipments.png") center no-repeat;
+}
+
+/*===заголовки===*/
+.main__title {
+    font-family: $primary-font;
+    font-size: calc(14px + 0.2vw);
+    font-weight: 700;
+    color: $primary-color;
+}

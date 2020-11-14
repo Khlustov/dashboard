@@ -11,7 +11,7 @@
     justify-content: space-between;
     align-items: center;
     width: 1200px;
-    overflow-x: auto;
+    overflow: auto;
 }
 
 .card__statistic {
@@ -43,6 +43,7 @@
 .statistic {    
     position: relative;
     margin: 0 auto;
+    padding: 0 0.5em;
     font-family: $primary-font;
     font-weight: 400;
     font-size: calc(10px + 0.2vw);
@@ -51,7 +52,7 @@
 
 .statistic--up::before {
     top: 50%;
-    left: -5px;
+    left: 0;
     position: absolute;
     content: "";
     width: 0;
@@ -63,7 +64,7 @@
 
 .statistic--down::after {
     top: 20%;
-    left: -5px;
+    left: 0;
     position: absolute;
     content: "";
     width: 0;
