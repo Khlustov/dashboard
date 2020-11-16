@@ -1,0 +1,46 @@
+.footer {
+    max-width: 270px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__icons {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.icon {
+    width: 65px;
+    height: 65px;
+}
+
+.icon--rdio {
+    background: url("../img/icons/footer/rdio.png") center no-repeat;
+}
+
+.icon--css {
+    background: url("../img/icons/footer/css-3.png") center no-repeat;
+}
+
+.icon--deviantart {
+    background: url("../img/icons/footer/deviantart.png") center no-repeat;
+}
+
+.icon--xing {
+    background: url("../img/icons/footer/xing.png") center no-repeat;
+}
+
+.icon--vimeo {
+    background: url("../img/icons/footer/vimeo.png") center no-repeat;
+}
+
+.icon--vk {
+    background: url("../img/icons/footer/vk.png") center no-repeat;
+}

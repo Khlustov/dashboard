@@ -1,0 +1,110 @@
+.aside__menu {
+    width: 270px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #FD5272,  #F17156);
+}
+
+.menu__button {
+    width: 90px;
+    height: 50px;
+}
+
+.button__link {
+    width: 90px;
+    height: 50px;
+    padding: 0;
+    border: none;
+}
+
+.button__link--user {
+    background: url('../img/icons/aside/users.png') center no-repeat;
+}
+
+.button__link--chat {
+    background: url('../img/icons/aside/chat.png') center no-repeat;
+}
+
+.button__link--like {
+    background: url('../img/icons/aside/like.png') center no-repeat;
+}
+
+.aside__chat {
+    width: 265px;
+    max-height: 480px;
+    margin: 0 auto;
+    overflow-y: auto;    
+}
+
+.aside__chat::-webkit-scrollbar {
+    width: 0;
+}
+
+.chat__list {
+    width: 260px;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.chat__user {
+    width: 45px;
+    height: 45px;
+    margin: auto 1em;
+}
+
+.user__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.user__name {
+    font-family: $primary-font;
+    font-size: calc(12px + 0.2vw);
+    font-weight: 900;
+    color: $primary-color;
+}
+
+.user__position {
+    font-family: $primary-font;
+    font-size: calc(11px + 0.2vw);
+    font-weight: 400;
+    color: $primary-color;
+}
+
+
+.aside__search {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $chat-background-color;
+}
+
+.aside__input {
+    width: 90%;
+    font-family: $primary-font;
+    font-size: calc(10px + 0.2vw);
+    font-weight: 400;
+    color: $primary-color;
+    border: none;
+    border-bottom: 1px solid $primary-color;
+}
+
+.aside__button {
+    width: 20px;
+    height: 35px;
+    margin: 0.2em 0.2em;
+    border: none;
+}
+
+.aside__button--search {
+    background: url("../img/icons/aside/zoom-out.png") center no-repeat;
+}
+
+.aside__button--type {
+    background: url("../img/icons/aside/edit.png") center no-repeat;
+}
