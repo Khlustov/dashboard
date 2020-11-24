@@ -4,6 +4,13 @@
     display: flex;
     justify-content: center;
     background: linear-gradient(to right, #FD5272,  #F17156);
+
+    @include mobile {
+        width: 100vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
 
 .menu__button {

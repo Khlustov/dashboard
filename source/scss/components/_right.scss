@@ -1,0 +1,10 @@
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    @include mobile {
+        width: 100%;
+    }
+}

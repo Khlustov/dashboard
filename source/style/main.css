@@ -1630,6 +1630,20 @@ input[type="checkbox"]:checked::after {
   background: linear-gradient(to right, #FD5272, #F17156);
 }
 
+@media (max-width: 768px) {
+  .aside__menu {
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .menu__button {
   width: 90px;
   height: 50px;
@@ -1843,5 +1857,44 @@ input[type="checkbox"]:checked::after {
       -ms-flex-pack: center;
           justify-content: center;
   max-width: 1296px;
+}
+
+@media (max-width: 768px) {
+  .content {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 768px) {
+  .right {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
